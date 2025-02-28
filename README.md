@@ -68,3 +68,95 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+# Quartet - A Collection of Classic Games
+
+Quartet is a collection of four classic games built using JavaScript, React, and CSS. This project includes the following games:
+
+- **15 Puzzle** - A sliding puzzle game where players arrange tiles in numerical order.
+- **Tic-Tac-Toe** - A classic two-player game of Xs and Os.
+- **Snake** - The retro arcade game where players guide a snake to eat food and grow.
+- **Memory Game** - A card-matching game that tests memory skills.
+
+## Features
+
+- Interactive UI with smooth animations.
+- Responsive design for desktop and mobile play.
+- Game state persistence for uninterrupted gameplay.
+- Lightweight and efficient implementation using React.
+
+## Installation
+
+To run the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sushmasruthi/gamequartet.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd gamequartet
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
+The game will be available at `http://localhost:3000/`.
+
+## Game Instructions
+
+### 15 Puzzle
+- Click on a tile adjacent to the empty space to move it.
+- Arrange all tiles in ascending order to win.
+
+### Tic-Tac-Toe
+- Players take turns marking X or O on a 3x3 grid.
+- The first player to form a horizontal, vertical, or diagonal line wins.
+
+### Snake
+- Use arrow keys to control the snake.
+- Eat food to grow, but avoid colliding with the walls or yourself.
+
+### Memory Game
+- Flip two cards at a time to find matching pairs.
+- Match all pairs to complete the game.
+
+## Technologies Used
+
+- React.js
+- JavaScript (ES6+)
+- HTML5 & CSS3
+- React Hooks
+
+## Contribution
+
+Contributions are welcome! To contribute:
+- Fork the repository.
+- Create a new branch (`feature/your-feature-name`).
+- Commit and push your changes.
+- Open a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+For any questions or suggestions, feel free to reach out via GitHub Issues.
+
+---
+Enjoy playing Quartet! 🎮
+
+
