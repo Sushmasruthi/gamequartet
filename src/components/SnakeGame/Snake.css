@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #282c34;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 190vh;
+    background-color: #282c34;
+    color: white;
+    font-size: calc(10px + 2vmin);
+    text-align: center;
+}
+
+.game-board {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.snake-segment {
+    position: absolute;
+    background-color: #4CAF50;
+    border: 2px solid #3E8E41;
+    border-radius: 4px;
+}
+
+.food {
+    position: absolute;
+    background-color: #FF0000;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 2px #FF0000;
+}
+
+.score {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.game-over h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.instructions {
+    text-align: center;
+    color: white;
+}
+
+.instructions p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.game-over button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.instructions button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.instructions button:hover {
+    background-color: #45a049;
+}
+
+.paused {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.paused h1 {
+    margin: 0;
+    font-size: 36px;
+}

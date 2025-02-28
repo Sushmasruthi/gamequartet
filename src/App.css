@@ -1,0 +1,16 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-color: black;
+  height: 100vh;
+  color: rgb(171, 43, 43);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: rgb(90, 246, 254);
+}

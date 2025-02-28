@@ -1,0 +1,51 @@
+.Welcome {
+    text-align: center;
+    color: #2760bd;
+    padding: 60px;
+    width:175vh;
+   
+  }
+  
+  .Welcome h1 {
+    color: #8f56ff; /* Change color of welcome message */
+    font-size: 2em;
+    margin-bottom: 25px;
+  }
+  
+  .difficulty-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .easy-button {
+    background-color: #8bc34a;
+    color: white;
+  }
+  
+  .easy-button:hover {
+    background-color: #689f38;
+  }
+  
+  .medium-button {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .medium-button:hover {
+    background-color: #ffb300;
+  }
+  
+  .hard-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .hard-button:hover {
+    background-color: #d32f2f;
+  }
+  

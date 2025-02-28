@@ -1,0 +1,44 @@
+#puzzle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center the puzzle vertically */
+    background-color: #f0f0f0; /* Light background for contrast */
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 5px; /* Space between tiles */
+    width: 420px; /* Includes gap */
+    height: 420px; /* Includes gap */
+    background-color: #fff; /* White background for the board */
+    border: 2px solid #333; /* Dark border around the board */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc; /* Light gray background for tiles */
+    border: 1px solid #999; /* Border for each tile */
+    font-size: 24px; /* Font size for numbers */
+    font-weight: bold; /* Bold numbers */
+    color: #333; /* Dark text color */
+    cursor: pointer;
+    user-select: none; /* Prevent text selection */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.tile:hover {
+    background-color: #bbb; /* Darker gray on hover */
+}
+
+.tile.empty {
+    background-color: transparent; /* Make the empty tile transparent */
+    border: none; /* Remove border for empty tile */
+    cursor: default; /* Change cursor for empty tile */
+}
+
